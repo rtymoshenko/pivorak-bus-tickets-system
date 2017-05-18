@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'routes/index'
+
+  get 'routes/new'
+
+  get 'routes/create'
+
+  get 'routes/update'
+
+  get 'routes/destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
