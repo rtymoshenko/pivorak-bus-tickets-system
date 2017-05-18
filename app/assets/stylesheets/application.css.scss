@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+  background: url('/assets/bus_background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+#link_bg_color{
+  background: linear-gradient(to bottom, #254980 0, #04285f 100%);
+}
+
+
+.navbar-nav li a {
+
+  color: white;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: underline;
+  background: linear-gradient(to bottom, #254980 0, #04285f 100%);
+}
